@@ -1,0 +1,20 @@
+{% extends 'polls/base.html' %}
+{% block body %}
+
+	<div class="center colortext2">
+		<h3 class="quest_head"><strong class="center">Click on any question so that you can vote for it and check it status</strong></h3>
+	</div>
+	<div class="center ">
+		{% if latest_question_list %}
+			<ul>
+			{% for question in latest_question_list %}
+				<li><a href="{% url 'polls:detail' question.id %}"><h3>{{ question.question_text }}</h3></a>
+				</li>
+			{% endfor %}
+			</ul>
+		{% else %}
+			<p> No polls are available.</p>
+		{% endif %}
+	</div>
+
+{% endblock %}

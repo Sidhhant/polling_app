@@ -1,0 +1,145 @@
+.l3{
+    float:right;
+}
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    padding-top: 100px;
+}
+footer {
+    padding: 30px 0;
+}
+.l4{
+    border:2px solid white;
+    border-radius: 3px;
+}
+.navbar-brand {
+    border-radius: 3px;
+    border:2px solid white;
+    font-size: 24px;
+    font-family: 'Satisfy' , cursive;
+}
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #222;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+.round{
+    border-radius: 5px;
+}
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+ul {
+    display:table; /* for  below IE7 use `width: 660px;` */
+    margin: 0 auto;
+}
+li a {
+	cursor: hand;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+}
+body {
+    background: white url("images/background.jpg") no-repeat ;
+}
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+.colortext1{
+    width:90%;
+	font-family: "Times New Roman", Times, serif;
+	color:blue;
+}
+.options{
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+input#gobutton{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#cccc00; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:#004466;
+font-size:1.1em;
+}
+input#gobutton:hover, input#gobutton:focus{
+background-color :black; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+.quest_head{
+    color: #f2f2f2;
+    width:100%;
+    text-align: center;
+}
+.detailover{
+    border-radius: 50px;
+    margin-top:50px;
+    width:50%;
+    background: white url("images/detail_bg.jpg") no-repeat ;
+}
+.colortext2{
+    padding: 0;
+    width:70%;
+    font-family: "Times New Roman", Times, serif;
+    color:blue;
+}
+.result_shown{
+    list-style-type: none;
+}
+.result_s{
+    margin:auto;
+    font-size: 26px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.smallnote{
+    text-align: right;
+    color:red;
+    font-family: "Arial ", "Arial ", Gadget, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.la{
+    font-size: large;
+    margin: auto;
+    width:30%;
+    margin-top: 40px;
+
+}
+.l1{
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 3px
+}

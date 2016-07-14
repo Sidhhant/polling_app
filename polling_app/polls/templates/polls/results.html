@@ -1,0 +1,14 @@
+{% extends 'polls/base.html' %}
+{% block title %}Polls_result{% endblock %}
+{% block body %}
+
+	<div class="center colortext2"><h1 class="quest_head">{{ question.question_text }}</h1></div>
+	<p class="center smallnote">Results of poll for this particular question</p>
+	<ul class="result_shown">
+		{% for choice in question.choice_set.all %}
+			<li class="result_s">{{ choice.choice_text }} -- {{ choice.percent }}%</li>
+		{% endfor %}
+	</ul>
+	<div class="la"><a class="l1" href="{% url 'polls:detail' question.id %}">Vote again?</a></div>
+
+{% endblock %}
